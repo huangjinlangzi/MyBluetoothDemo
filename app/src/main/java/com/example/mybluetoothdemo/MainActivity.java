@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
                 if(isConnect){
                     bluetoothHelper.handleDoor(1,"12","12");
                 }else {
-                    Toast.makeText(context, "请先连接蓝牙", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(context, "请先连接蓝牙1", Toast.LENGTH_SHORT).show();
                 }
             }
         });
