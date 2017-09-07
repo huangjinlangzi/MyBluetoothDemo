@@ -1,0 +1,18 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="com.xiaoming.bluttoothlibrary">
+    <!--不支持蓝牙设备无法安装-->
+    <uses-feature
+        android:name="android.hardware.bluetooth"
+        android:required="true" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <application >
+        <service
+            android:name="GattAppService"
+            android:enabled="true" />
+    </application>
+
+</manifest>
