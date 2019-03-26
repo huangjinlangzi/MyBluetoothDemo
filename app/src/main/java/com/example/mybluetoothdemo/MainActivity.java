@@ -102,6 +102,11 @@ public class MainActivity extends AppCompatActivity {
         window.setGravity(Gravity.CENTER);
         window.setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
         progressDialog.show();
+
+
+        ///shfiasdfidajsfaij 
+
+
     }
 
 
