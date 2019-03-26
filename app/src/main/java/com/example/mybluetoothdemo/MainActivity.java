@@ -100,6 +100,12 @@ public class MainActivity extends AppCompatActivity {
         progressDialog.setMessage(message);
         Window window = progressDialog.getWindow();
         window.setGravity(Gravity.CENTER);
+
+
+
+
+
+
         window.setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
         progressDialog.show();
     }
